@@ -30,4 +30,4 @@ app.get(`/`, (req, res) => res.render(`pages/home`, {
     FAVICON: ``
 }));
 
-app.listen(settings.PORT, () => console.log(`${package.name} est prêt !`));
+app.listen(process.env.PORT || 8080, () => console.log(`${package.name} est prêt !`));
