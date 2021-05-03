@@ -1,0 +1,19 @@
+{
+    "name": "snt-site-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RastaRocket78160/SNT-site-web.git"
+    },
+    "author": "",
+    "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/RastaRocket78160/SNT-site-web/issues"
+    },
+    "homepage": "https://github.com/RastaRocket78160/SNT-site-web#readme"
+}
