@@ -15,7 +15,7 @@ app.use(`/static`, express.static(path.join(__dirname, `public`)));
 
 app.get(`/`, (req, res) => res.render(`pages/home`, {
     NAME: `Disorder`,
-    PAGE: `Home`,
+    PAGE: `Accueil`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
