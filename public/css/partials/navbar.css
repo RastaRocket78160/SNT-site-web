@@ -1,4 +1,37 @@
 #navbar {
-    background-color: #23272A;
+    background-color: #191919;
     box-shadow: 3px 4px 18px 3px rgb(0 0 0 / 50%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-text-sfait:hover:after {
+    width: 90%;
+    background: #E10000;
+}
+
+.navbar-text-sfait:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar-text-sfait {
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width: 266px) {
+    #navbarpicture {
+        display: none;
+    }
+
+    #navbartoogler {
+        margin: auto auto;
+    }
 }

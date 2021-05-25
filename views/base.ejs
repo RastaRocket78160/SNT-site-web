@@ -28,8 +28,37 @@
     <meta name="twitter:title" content="<%- NAME %> | <%- PAGE %>" />
     <meta name="twitter:description" content="<%- DESCRIPTION %>" />
     <meta name="twitter:image" content="<%- TWITTER_IMAGE %>" />
+    <!-- Pace.js-->
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <style>
+        .pace {
+            -webkit-pointer-events: none;
+            pointer-events: none;
+
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        .pace-inactive {
+            display: none;
+        }
+
+        .pace .pace-progress {
+            background: #E10000;
+            box-shadow: 0px 0px 13px 1px #E10000;
+            position: fixed;
+            z-index: 2000;
+            top: 0;
+            right: 100%;
+            width: 100%;
+            height: 2px;
+        }
+    </style>
     <!-- Favicon -->
     <link rel="icon" href="<%- FAVICON %>" type="image/x-icon" />
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/51ec33512f.js" crossorigin="anonymous"></script>
     <!-- FONTS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap">
     <!-- CSS -->

@@ -14,13 +14,13 @@ app.set(`views`, path.join(__dirname, `views`));
 app.use(`/static`, express.static(path.join(__dirname, `public`)));
 
 app.get(`/`, (req, res) => res.render(`pages/home`, {
-    NAME: `TEST`,
+    NAME: `Disorder`,
     PAGE: `Home`,
-    DESCRIPTION: `TEST`,
+    DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
     FACEBOOK_APP_ID: ``,
-    THEME_COLOR: `#0099ff`,
+    THEME_COLOR: `#E10000`,
     OG_IMAGE: ``,
     OG_URL: ``,
     LANGUAGE: `fr_FR`,
