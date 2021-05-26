@@ -30,6 +30,57 @@ app.get(`/`, (req, res) => res.render(`pages/home`, {
     FAVICON: ``
 }));
 
+app.get(`/news`, (req, res) => res.render(`pages/news`, {
+    NAME: `Disorder`,
+    PAGE: `Actualités`,
+    DESCRIPTION: ``,
+    ROBOTS: `index, follow`,
+    KEYWORDS: ``,
+    FACEBOOK_APP_ID: ``,
+    THEME_COLOR: `#E10000`,
+    OG_IMAGE: ``,
+    OG_URL: ``,
+    LANGUAGE: `fr_FR`,
+    CARD: `summary`,
+    DOMAIN: req.hostname,
+    TWITTER_IMAGE: ``,
+    FAVICON: ``
+}));
+
+app.get(`/speedrun`, (req, res) => res.render(`pages/speedrun`, {
+    NAME: `Disorder`,
+    PAGE: `Speedrun`,
+    DESCRIPTION: ``,
+    ROBOTS: `index, follow`,
+    KEYWORDS: ``,
+    FACEBOOK_APP_ID: ``,
+    THEME_COLOR: `#E10000`,
+    OG_IMAGE: ``,
+    OG_URL: ``,
+    LANGUAGE: `fr_FR`,
+    CARD: `summary`,
+    DOMAIN: req.hostname,
+    TWITTER_IMAGE: ``,
+    FAVICON: ``
+}));
+
+app.get(`/esports`, (req, res) => res.render(`pages/esports`, {
+    NAME: `Disorder`,
+    PAGE: `Esports`,
+    DESCRIPTION: ``,
+    ROBOTS: `index, follow`,
+    KEYWORDS: ``,
+    FACEBOOK_APP_ID: ``,
+    THEME_COLOR: `#E10000`,
+    OG_IMAGE: ``,
+    OG_URL: ``,
+    LANGUAGE: `fr_FR`,
+    CARD: `summary`,
+    DOMAIN: req.hostname,
+    TWITTER_IMAGE: ``,
+    FAVICON: ``
+}));
+
 app.get(`/contact`, (req, res) => res.render(`pages/contact`, {
     NAME: `Disorder`,
     PAGE: `Contact`,
