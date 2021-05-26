@@ -18,3 +18,15 @@
 #footer a:hover {
     color: #E10000;
 }
+
+@media only screen and (max-width: 380px) {
+    #githubfooter {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 380px) {
+    #githubfooter {
+        display: none;
+    }
+}

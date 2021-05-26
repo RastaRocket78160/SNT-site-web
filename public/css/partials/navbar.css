@@ -35,3 +35,15 @@
         margin: auto auto;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .github-corner {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 380px) {
+    .github-corner {
+        display: block;
+    }
+}
