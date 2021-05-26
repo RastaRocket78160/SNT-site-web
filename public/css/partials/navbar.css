@@ -26,8 +26,8 @@
     text-align: center;
 }
 
-@media screen and (max-width: 266px) {
-    #navbarpicture {
+@media screen and (max-width: 197px) {
+    .navbar-brand {
         display: none;
     }
 

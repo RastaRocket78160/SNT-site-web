@@ -30,4 +30,21 @@ app.get(`/`, (req, res) => res.render(`pages/home`, {
     FAVICON: ``
 }));
 
+app.get(`/contact`, (req, res) => res.render(`pages/contact`, {
+    NAME: `Disorder`,
+    PAGE: `Contact`,
+    DESCRIPTION: ``,
+    ROBOTS: `index, follow`,
+    KEYWORDS: ``,
+    FACEBOOK_APP_ID: ``,
+    THEME_COLOR: `#E10000`,
+    OG_IMAGE: ``,
+    OG_URL: ``,
+    LANGUAGE: `fr_FR`,
+    CARD: `summary`,
+    DOMAIN: req.hostname,
+    TWITTER_IMAGE: ``,
+    FAVICON: ``
+}));
+
 app.listen(process.env.PORT || 3000, () => console.log(`${package.name} est prêt ! http://localhost:${process.env.PORT || 3000}`));
