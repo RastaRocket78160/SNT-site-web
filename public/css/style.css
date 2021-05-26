@@ -192,11 +192,14 @@ body .octicon {
 
 body a {
     background-color: transparent;
+    color: #E10000;
+    text-decoration: none;
 }
 
-body a:active,
 body a:hover {
-    outline-width: 0;
+    background-color: transparent;
+    color: #b60000;
+    text-decoration: none;
 }
 
 body strong {
@@ -251,11 +254,6 @@ body input {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-}
-
-body a {
-    color: #528bff;
-    text-decoration: none;
 }
 
 body strong {
@@ -858,4 +856,26 @@ body .task-list-item-checkbox {
 
 .btn:focus {
     box-shadow: 0 0 0 0.25rem rgb(19 175 2 / 50%);
+}
+
+.popover-body {
+    background-color: #191919;
+    color: #e3e0e0;
+    box-shadow: 0px 0px 18px 3px rgb(0 0 0 / 50%);
+}
+
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, .bs-popover-bottom>.popover-arrow::after {
+    border-bottom-color: #191919;
+}
+
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, .bs-popover-top>.popover-arrow::after {
+    border-top-color: #191919;
+}
+
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after, .bs-popover-right>.popover-arrow::after {
+    border-right-color: #191919;
+}
+
+.bs-popover-auto[data-popper-placement^=left]>.popover-arrow::after, .bs-popover-left>.popover-arrow::after {
+    border-left-color: #191919;
 }

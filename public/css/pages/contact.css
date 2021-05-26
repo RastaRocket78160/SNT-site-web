@@ -1,3 +1,21 @@
+.card-body a {
+    background-color: transparent;
+    color: #abb2bf;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    background-color: transparent;
+    color: #8f949e;
+    text-decoration: none;
+}
+
+.card-body a:not([href]):hover {
+    background-color: transparent;
+    color: #8f949e;
+    text-decoration: none;
+}
+
 .link-card {
     padding-left: 10px;
 }
