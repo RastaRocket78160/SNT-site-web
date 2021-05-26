@@ -6,13 +6,13 @@
 
 .card-body a:hover {
     background-color: transparent;
-    color: #8f949e;
+    color: #fff;
     text-decoration: none;
 }
 
 .card-body a:not([href]):hover {
     background-color: transparent;
-    color: #8f949e;
+    color: #fff;
     text-decoration: none;
 }
 
