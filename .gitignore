@@ -107,4 +107,4 @@ dist
 .vscode
 
 # Package LOCK
-.package-lock.json
+package-lock.json

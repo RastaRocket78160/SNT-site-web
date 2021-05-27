@@ -28,7 +28,10 @@
             "paste_gg": "https://paste.gg/u/Alex%20Animate%20Mp4"
         }
     },
-    "contributors": ["Alexandre", "Lucas"],
+    "contributors": [
+        "Alexandre",
+        "Lucas"
+    ],
     "files": [
         ".env.example",
         ".gitignore",
@@ -48,8 +51,7 @@
     },
     "private": "true",
     "dependencies": {
-        "axios": "^0.21.1",
         "dotenv": "^10.0.0",
-        "rich-presence-builder": "^0.1.1"
+        "express": "^4.17.1"
     }
 }
