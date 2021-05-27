@@ -1,0 +1,81 @@
+#navbar {
+    background-color: #191919;
+    box-shadow: 0px 0px 18px 3px rgb(0 0 0 / 50%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-text-sfait:hover:after {
+    width: 90%;
+    background: #E10000;
+}
+
+.navbar-text-sfait:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar-text-sfait {
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width: 197px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    #navbartoogler {
+        margin: auto auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .github-corner {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 380px) {
+    .github-corner {
+        display: block;
+    }
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+    0%,
+    100% {
+        transform: rotate(0)
+    }
+
+    20%,
+    60% {
+        transform: rotate(-25deg)
+    }
+
+    40%,
+    80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}

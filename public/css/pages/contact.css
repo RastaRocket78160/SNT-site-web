@@ -1,0 +1,37 @@
+.card-body a {
+    background-color: transparent;
+    color: #abb2bf;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-body a:not([href]):hover {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-card {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card img {
+        border-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card img {
+        border-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}

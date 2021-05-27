@@ -1,0 +1,46 @@
+#footer {
+    background-color: #191919;
+    box-shadow: 0px 0px 18px 3px rgb(0 0 0 / 50%);
+    padding-top: 2rem;
+    /*bottom: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;*/
+}
+
+#footer a {
+    color: #e3e0e0;
+    transition: ease-in-out;
+    transition-duration: .3s;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #E10000;
+}
+
+@media only screen and (max-width: 380px) {
+    #githubfooter {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 380px) {
+    #githubfooter {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-list {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
