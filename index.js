@@ -14,8 +14,7 @@ app.set(`views`, path.join(__dirname, `views`));
 app.use(`/static`, express.static(path.join(__dirname, `public`)));
 
 app.get(`/`, (req, res) => res.render(`pages/home`, {
-    NAME: `Disorder`,
-    PAGE: `Accueil`,
+    TITLE: `Disorder \| Accueil`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
@@ -31,8 +30,7 @@ app.get(`/`, (req, res) => res.render(`pages/home`, {
 }));
 
 app.get(`/news`, (req, res) => res.render(`pages/news`, {
-    NAME: `Disorder`,
-    PAGE: `Actualités`,
+    TITLE: `Disorder \| Actualités`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
@@ -48,8 +46,7 @@ app.get(`/news`, (req, res) => res.render(`pages/news`, {
 }));
 
 app.get(`/speedrun`, (req, res) => res.render(`pages/speedrun`, {
-    NAME: `Disorder`,
-    PAGE: `Speedrun`,
+    TITLE: `Disorder \| Speedrun`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
@@ -65,8 +62,7 @@ app.get(`/speedrun`, (req, res) => res.render(`pages/speedrun`, {
 }));
 
 app.get(`/esports`, (req, res) => res.render(`pages/esports`, {
-    NAME: `Disorder`,
-    PAGE: `Esports`,
+    TITLE: `Disorder \| Esports`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
@@ -82,8 +78,7 @@ app.get(`/esports`, (req, res) => res.render(`pages/esports`, {
 }));
 
 app.get(`/contact`, (req, res) => res.render(`pages/contact`, {
-    NAME: `Disorder`,
-    PAGE: `Contact`,
+    TITLE: `Disorder \| Contact`,
     DESCRIPTION: ``,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
