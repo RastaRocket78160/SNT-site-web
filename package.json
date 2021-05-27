@@ -2,24 +2,54 @@
     "name": "disorder",
     "version": "1.0.0",
     "description": "",
+    "license": "MPL-2.0",
+    "author": {
+        "name": "Alex Animate Mp4",
+        "bio": "A French Javascript developer who is in love with Lara Croft🥰",
+        "location": "France",
+        "birthday": "30/09",
+        "email": "alexanimatemp4pro@gmail.com",
+        "url": "https://alexanimatemp4.herokuapp.com",
+        "social_networks": {
+            "github": "https://github.com/AlexAnimateMP4",
+            "discord": "Alex Animate Mp4#2361",
+            "tiktok": "https://tiktok.com/@alexanimatemp4",
+            "twitter": "https://twitter.com/AlexAnimateMp4",
+            "instagram": "https://instagram.com/alexanimatemp4",
+            "gravatar": "https://gravatar.com/alexanimatemp4",
+            "twitch": "https://twitch.tv/alexanimatemp4",
+            "steam": "https://steamcommunity.com/id/AlexAnimateMp4",
+            "battle_net": "AlexAnimate#2465",
+            "xbox_live": "Alex Animate374",
+            "youtube": "https://youtube.com/channel/UCU9dR_U-HZi-XAGCl_HV9_A",
+            "spotify": "https://open.spotify.com/user/1xyn4zl6nl98g44elp12hx5ta",
+            "reddit": "https://reddit.com/user/AlexAnimateMp4",
+            "imgur": "https://imgur.com/user/AlexAnimateMP4",
+            "paste_gg": "https://paste.gg/u/Alex%20Animate%20Mp4"
+        }
+    },
+    "contributors": ["Alexandre", "Lucas"],
+    "files": [
+        ".env.example",
+        ".gitignore",
+        "index.js",
+        "LICENSE",
+        "package.json",
+        "Procfile",
+        "README.md"
+    ],
     "main": "index.js",
     "scripts": {
-        "start": "node --trace-warnings index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node --trace-warnings index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/RastaRocket78160/SNT-site-web.git"
+    "engines": {
+        "node": ">= 16.2.0",
+        "npm": ">= 7.13.0"
     },
-    "author": "",
-    "license": "MPL-2.0",
-    "bugs": {
-        "url": "https://github.com/RastaRocket78160/SNT-site-web/issues"
-    },
-    "homepage": "https://github.com/RastaRocket78160/SNT-site-web#readme",
+    "private": "true",
     "dependencies": {
+        "axios": "^0.21.1",
         "dotenv": "^10.0.0",
-        "ejs": "^3.1.6",
-        "express": "^4.17.1"
+        "rich-presence-builder": "^0.1.1"
     }
 }

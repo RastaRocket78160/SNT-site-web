@@ -31,7 +31,7 @@ app.get(`/`, (req, res) => res.render(`pages/home`, {
 
 app.get(`/news`, (req, res) => res.render(`pages/news`, {
     TITLE: `Disorder \| Actualités`,
-    DESCRIPTION: ``,
+    DESCRIPTION: `L'actualité sur l'informatique et le gaming !`,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
     FACEBOOK_APP_ID: ``,
@@ -47,7 +47,7 @@ app.get(`/news`, (req, res) => res.render(`pages/news`, {
 
 app.get(`/speedrun`, (req, res) => res.render(`pages/speedrun`, {
     TITLE: `Disorder \| Speedrun`,
-    DESCRIPTION: ``,
+    DESCRIPTION: `Descriptif et actualité du speedrun.`,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
     FACEBOOK_APP_ID: ``,
@@ -63,7 +63,7 @@ app.get(`/speedrun`, (req, res) => res.render(`pages/speedrun`, {
 
 app.get(`/esports`, (req, res) => res.render(`pages/esports`, {
     TITLE: `Disorder \| Esports`,
-    DESCRIPTION: ``,
+    DESCRIPTION: `Descriptif et actualité de l'esports.`,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
     FACEBOOK_APP_ID: ``,
@@ -79,7 +79,7 @@ app.get(`/esports`, (req, res) => res.render(`pages/esports`, {
 
 app.get(`/contact`, (req, res) => res.render(`pages/contact`, {
     TITLE: `Disorder \| Contact`,
-    DESCRIPTION: ``,
+    DESCRIPTION: `Contributeurs et contact.`,
     ROBOTS: `index, follow`,
     KEYWORDS: ``,
     FACEBOOK_APP_ID: ``,
