@@ -33,13 +33,15 @@
         "Lucas"
     ],
     "files": [
+        "public",
+        "views",
         ".env.example",
         ".gitignore",
-        "index.js",
         "LICENSE",
-        "package.json",
         "Procfile",
         "README.md"
+        "index.js",
+        "package.json",
     ],
     "main": "index.js",
     "scripts": {
